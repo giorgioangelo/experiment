@@ -20,6 +20,7 @@ h1 {
 table {
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 td, th {
@@ -39,6 +40,6 @@ a {
 	color: white;
 }
 footer {
-	margin: 200px 30px 0 30px;
+	margin: 100px 30px 0 30px;
 	color: #BAB7B9;
 }
