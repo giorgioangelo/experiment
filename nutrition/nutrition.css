@@ -40,8 +40,17 @@ a {
 #video {
 	margin-bottom: 30px;
 }
+iframe {
+	border: 0;
+}
 .watch-video {
 	text-align: center;
+}
+.details:hover {
+	text-decoration: none;
+	color: yellow;
+	background-color: blue;
+
 }
 footer {
 	margin: 50px 20px 0 30px;

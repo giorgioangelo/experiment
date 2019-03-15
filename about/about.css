@@ -64,6 +64,12 @@ img {
 	max-height: 320px;
 	padding-right: 30px;
 }
+.back:hover {
+	text-decoration: none;
+	color: yellow;
+	background-color: blue;
+
+}
 footer {
 	margin: 50px 20px 0 10px;
 	color: #BAB7B9;

@@ -26,8 +26,6 @@ h2 {
 h3 {
 	text-align: center;
 	margin: 10px;
-	text-decoration-line: underline;
-	text-decoration-style: wavy;
 }
 p {
 	 line-height: 200%;
@@ -40,6 +38,12 @@ a {
 	border-radius: 4px;
 	background-color: #0A94C4;
 	color: white;
+
+}
+.details:hover {
+	text-decoration: none;
+	color: yellow;
+	background-color: blue;
 
 }
 footer {

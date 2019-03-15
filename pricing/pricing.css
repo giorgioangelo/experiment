@@ -39,6 +39,12 @@ a {
 	background-color: #0A94C4;
 	color: white;
 }
+.details:hover {
+	text-decoration: none;
+	color: yellow;
+	background-color: blue;
+
+}
 footer {
 	margin: 100px 30px 0 30px;
 	color: #BAB7B9;

@@ -134,6 +134,10 @@ footer {
 	color: white;
 
 }
+.faq:hover {
+	text-decoration: none;
+	
+}
 @media (max-width: 800px) {
 	.faq {
 		
