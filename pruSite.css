@@ -45,8 +45,8 @@ h3 {
 	
 }
 .logo {
-	width: 70px;
-	height: 50px;
+	width: 90px;
+	height: 70px;
 }
 hr {
 	margin-top: 20px;
@@ -61,7 +61,7 @@ hr {
   	background-size: 100% 100%;
 	margin: auto;
 	height: 450px;
-	width: 70%;
+	width: 100%;
 	z-index: -1;
 
 	
