@@ -44,6 +44,9 @@ h3 {
 	width: 100%;
 	
 }
+.logo {
+	max-width: 100px;
+	max-height: 100px;
 hr {
 	margin-top: 20px;
 }
