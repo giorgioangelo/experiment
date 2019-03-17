@@ -58,6 +58,7 @@ margin: 0;
 	margin: auto;
 	height: 450px;
 	width: 70%;
+	z-index: -1;
 
 	
 }
