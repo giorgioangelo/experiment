@@ -24,7 +24,7 @@ body {
 .tekst, .lead {
 	color: white;
 }
-.navi {
+.coverimage {
 	overflow: hidden;
 	color: white;
 	text-align: center;
@@ -38,33 +38,30 @@ h3 {
 	font-family: 'Srisakdi', cursive;
 	color: white;
 	font-weight: 600;
-	padding: 0 130px;
+	padding: 30px 130px;
 	font-size: 1.5rem;
 	width: 100%;
-	margin-top: 30px;
+	
 	
 }
 .logo {
 	width: 90px;
 	height: 70px;
 }
-hr {
-	margin-top: 20px;
-}
+
 #navbar {
 	overflow: hidden;
 	background-color: #F7EAC1;
 
 }
+
 .jumbotron {
 	background-image: url(images/massage.jpg);
-  	background-size: 100% 100%;
-	margin: auto;
+  	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 	height: 450px;
-	width: 80%;
-	z-index: -1;
-
-	
+	width: 100%;	
 }
 
 li {
@@ -122,9 +119,13 @@ footer {
 	color: white;
 }
 
-.nav-item {
-	color: #c52761;
+.nav-item, .nav-link {
+	color: #c52761 !important;
 	font-weight: 700;
+	width: 100%;
+	margin: 0 70px;
+
+
 }
 .bottom {
 	background-color: #83125F;
@@ -146,20 +147,39 @@ footer {
 @media (max-width: 800px) {
 	.faq {
 		
-		margin-top: 0;
 		margin-left: 170px;
-
-	
+	}
+	.nav-link {
+		margin: 0;
+		padding: 0;
 	}
 	.jumbotron {
 		width: 100%;
-		height: 300px;
+		height: 280px;
 	}
 	h3 {
 		font-weight: 500;
 		font-size: 0.75rem;
 		margin-top: 15px;
 	}
-	
 
+}
+@media (min-width: 1024px) {
+	.nav-link {
+		margin: 20px;
+	}
+}
+@media (max-width: 414px) and (min-width: 376px) {
+	.faq {
+		margin-left: 185px;
+	}
+}
+
+@media (max-width: 320px) {
+	.call {
+		padding: 2px;
+	}
+	.faq {
+		margin-left: 150px;
+	}
 }
