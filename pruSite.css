@@ -4,20 +4,20 @@
 }
 body {
 	
-	background: #F735B9;
+	background: #2f5237;
 	
 }
 .details {
 	text-decoration: none;
 	padding: 8px 15px;
 	border-radius: 4px;
-	background-color: #0A94C4;
+	background-color: #035717;
 	color: white;
 
 }
 .details:hover {
 	text-decoration: none;
-	color: yellow;
+	color: white;
 	background-color: blue;
 
 }
@@ -51,12 +51,12 @@ h3 {
 
 #navbar {
 	overflow: hidden;
-	background-color: #F7EAC1;
+	background-color: #a9d6cf;
 
 }
 
 .jumbotron {
-	background-image: url(images/massage.jpg);
+	background-image: url(https://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg);
   	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -68,10 +68,10 @@ li {
 	list-style: none;
 }
 .call {
-	background-color: #FAF59C;
+	background-color: #035749;
 	top: 0;
 	padding: 10px;
-	color: #c52761;
+	color: white;
 	font-weight: 600;
 	font-size: 20px;
 	text-align: center;
@@ -89,10 +89,11 @@ img {
 	text-shadow: 2px 2px 4px #000000;
 }
 .card {
-	background-color: #FACEB9;
+	background-color: #181f1a;
 	padding: 50px;
 	align-items: center;
 	font-family: 'Raleway', sans-serif;
+	color: white;
 
 }
 .card-body {
@@ -110,6 +111,8 @@ footer {
 }
 .contactB {
 	margin-right: 10px;
+	background-color: #071209;
+	border: none;
 
 }
 .contactD {
@@ -120,7 +123,7 @@ footer {
 }
 
 .nav-item, .nav-link {
-	color: #c52761 !important;
+	color: #1a1938 !important;
 	font-weight: 700;
 	width: 100%;
 	margin: 0 70px;
@@ -128,7 +131,7 @@ footer {
 
 }
 .bottom {
-	background-color: #83125F;
+	background-color: #0a3812;
 	margin-top: 30px;
 	margin-bottom: 0px;
 	padding-right: 20px;
